@@ -13,6 +13,8 @@ $ npm install
 ```shell script
 $ npm start
 ````
+Service is now avaliable at **[localhost:3000](http://localhost:3000)**.
+
 
 ## Testing
 We use **[Jest](https://jestjs.io/en/)** for **unit tests**. We also test **code coverage** automatically.
