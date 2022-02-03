@@ -20,7 +20,6 @@
   },
   "devDependencies": {
     "jest": "^27.4.7",
-    "micro-dev": "^3.0.0",
     "rewire": "^6.0.0"
   },
   "jest": {
