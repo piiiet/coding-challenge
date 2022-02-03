@@ -1,0 +1,8 @@
+# JetBrains
+.idea
+
+# Jest
+coverage
+
+# Dependency directory
+node_modules

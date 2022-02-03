@@ -1,0 +1,39 @@
+{
+  "name": "comtravo-coding-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "micro -l tcp://localhost:3000"
+  },
+  "keywords": [
+    "coding",
+    "challenge",
+    "service"
+  ],
+  "author": "Peter Leistner",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "lodash": "^4.17.21",
+    "micro": "^9.3.4"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "micro-dev": "^3.0.0",
+    "rewire": "^6.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": -10
+      }
+    }
+  }
+}
